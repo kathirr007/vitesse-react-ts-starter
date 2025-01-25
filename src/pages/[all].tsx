@@ -1,4 +1,3 @@
-import ErrorLayout from '@/layouts/ErrorLayout';
 import { NavLink } from 'react-router';
 
 function ErrorContent() {

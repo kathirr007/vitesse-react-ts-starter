@@ -1,10 +1,10 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
+import type { ReactNode } from 'react';
 import { useNProgress } from '@/hooks/useNprogress';
 import { memo } from 'react';
 
-const HomeLayout = memo(({ children }) => {
+const HomeLayout = memo(({ children }: Readonly<{ children: ReactNode }>) => {
   useNProgress();
+
   return (
     <>
       <Header />
@@ -14,4 +14,4 @@ const HomeLayout = memo(({ children }) => {
   );
 });
 
-export default HomeLayout;
+export { HomeLayout };

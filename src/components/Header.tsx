@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router';
 
-export default function Header() {
+export function Header() {
   return (
     <header className="items-center justify-between mb-6">
       {/* <h1 className="text-2xl font-bold">Vite + React</h1> */}

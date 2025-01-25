@@ -32,7 +32,7 @@
   ],
   "include": [
     "src/**/*",
-    "vite.env.d.ts",
+    "vite-env.d.ts",
     "auto-imports.d.ts",
     "components.d.ts",
     ".eslintrc-auto-import.json",

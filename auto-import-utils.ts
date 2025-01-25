@@ -23,7 +23,7 @@ export function getComponentImports() {
     },
     {
       pattern: './src/layouts/*.{tsx,jsx}',
-      omit: './src/'
+      omit: './src/layouts'
     }
   ];
 

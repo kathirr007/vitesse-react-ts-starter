@@ -183,6 +183,19 @@
     "TOGGLE_FAV": true,
     "products": true,
     "toggleFav": true,
-    "Product": true
+    "Product": true,
+    "Footer": true,
+    "LayoutsErrorLayout": true,
+    "LayoutsHomeLayout": true,
+    "counterActions": true,
+    "counterReducers": true,
+    "storePersistor": true,
+    "uiReducers": true,
+    "useDark": true,
+    "useNProgress": true,
+    "useDarkMode": true,
+    "RootStateType": true,
+    "ErrorLayout": true,
+    "HomeLayout": true
   }
 }

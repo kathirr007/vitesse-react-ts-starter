@@ -1,4 +1,5 @@
 import { fileURLToPath, URL } from 'node:url';
+import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import AutoImport from 'unplugin-auto-import/vite';
 import { defineConfig } from 'vite';
@@ -9,6 +10,7 @@ import { getComponentImports } from './auto-import-utils';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    tailwindcss(),
     ViteRestartPlugin({
       restart: ['./src/components/**/*.*'],
       eventsToWatch: ['add', 'unlink']
@@ -34,7 +36,7 @@ export default defineConfig({
         ...getComponentImports(),
         'react',
         'react-router',
-        'ahooks'
+        { 'usehooks-ts': ['useCounter', 'useDarkMode'] }
       ],
       dumpUnimportItems: true
     }),

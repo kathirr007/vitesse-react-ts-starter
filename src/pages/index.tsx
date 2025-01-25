@@ -1,14 +1,14 @@
+import type { RootState } from '@/store';
 import reactLogo from '@/assets/react.svg';
-import HomeLayout from '@/layouts/HomeLayout';
-import { counterActions } from '@/store/counter';
 
+import { counterActions } from '@/store/counter';
 import { useDispatch, useSelector } from 'react-redux';
 import '@/App.css';
 import viteLogo from '/vite.svg';
 
 function IndexContent() {
   const dispatch = useDispatch();
-  const count = useSelector(state => state.counterStore.count);
+  const count = useSelector((state: RootState) => state.counterStore.count);
   function handleIncrement() {
     dispatch(counterActions.increment());
   }

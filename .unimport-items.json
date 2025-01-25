@@ -1,23 +1,23 @@
 [
   {
-    "from": "@/components/Favorites/FavoriteItem.tsx",
-    "name": "FavoriteItem",
-    "as": "FavoritesFavoriteItem"
+    "from": "@/components/Footer.tsx",
+    "name": "Footer",
+    "as": "Footer"
   },
   {
-    "from": "@/components/Nav/Navigation.tsx",
-    "name": "Navigation",
-    "as": "NavNavigation"
+    "from": "@/components/Header.tsx",
+    "name": "Header",
+    "as": "Header"
   },
   {
-    "from": "@/components/Products/ProductItem.tsx",
-    "name": "ProductItem",
-    "as": "ProductsProductItem"
+    "from": "@/layouts/ErrorLayout.tsx",
+    "name": "ErrorLayout",
+    "as": "ErrorLayout"
   },
   {
-    "from": "@/components/UI/Card.tsx",
-    "name": "Card",
-    "as": "UICard"
+    "from": "@/layouts/HomeLayout.tsx",
+    "name": "HomeLayout",
+    "as": "HomeLayout"
   },
   {
     "from": "react",
@@ -170,413 +170,68 @@
     "as": "useRoutes"
   },
   {
-    "from": "ahooks",
-    "name": "useAntdTable",
-    "as": "useAntdTable"
-  },
-  {
-    "from": "ahooks",
-    "name": "useAsyncEffect",
-    "as": "useAsyncEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useBoolean",
-    "as": "useBoolean"
-  },
-  {
-    "from": "ahooks",
-    "name": "useClickAway",
-    "as": "useClickAway"
-  },
-  {
-    "from": "ahooks",
-    "name": "useControllableValue",
-    "as": "useControllableValue"
-  },
-  {
-    "from": "ahooks",
-    "name": "useCookieState",
-    "as": "useCookieState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useCountDown",
-    "as": "useCountDown"
-  },
-  {
-    "from": "ahooks",
+    "from": "usehooks-ts",
     "name": "useCounter",
     "as": "useCounter"
   },
   {
-    "from": "ahooks",
-    "name": "useCreation",
-    "as": "useCreation"
+    "from": "usehooks-ts",
+    "name": "useDarkMode",
+    "as": "useDarkMode"
   },
   {
-    "from": "ahooks",
-    "name": "useDebounce",
-    "as": "useDebounce"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDebounceEffect",
-    "as": "useDebounceEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDebounceFn",
-    "as": "useDebounceFn"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDeepCompareEffect",
-    "as": "useDeepCompareEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDeepCompareLayoutEffect",
-    "as": "useDeepCompareLayoutEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDocumentVisibility",
-    "as": "useDocumentVisibility"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDrag",
-    "as": "useDrag"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDrop",
-    "as": "useDrop"
-  },
-  {
-    "from": "ahooks",
-    "name": "useDynamicList",
-    "as": "useDynamicList"
-  },
-  {
-    "from": "ahooks",
-    "name": "useEventEmitter",
-    "as": "useEventEmitter"
-  },
-  {
-    "from": "ahooks",
-    "name": "useEventListener",
-    "as": "useEventListener"
-  },
-  {
-    "from": "ahooks",
-    "name": "useEventTarget",
-    "as": "useEventTarget"
-  },
-  {
-    "from": "ahooks",
-    "name": "useExternal",
-    "as": "useExternal"
-  },
-  {
-    "from": "ahooks",
-    "name": "useFavicon",
-    "as": "useFavicon"
-  },
-  {
-    "from": "ahooks",
-    "name": "useFocusWithin",
-    "as": "useFocusWithin"
-  },
-  {
-    "from": "ahooks",
-    "name": "useFullscreen",
-    "as": "useFullscreen"
-  },
-  {
-    "from": "ahooks",
-    "name": "useFusionTable",
-    "as": "useFusionTable"
-  },
-  {
-    "from": "ahooks",
-    "name": "useGetState",
-    "as": "useGetState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useHistoryTravel",
-    "as": "useHistoryTravel"
-  },
-  {
-    "from": "ahooks",
-    "name": "useHover",
-    "as": "useHover"
-  },
-  {
-    "from": "ahooks",
-    "name": "useInViewport",
-    "as": "useInViewport"
-  },
-  {
-    "from": "ahooks",
-    "name": "useInfiniteScroll",
-    "as": "useInfiniteScroll"
-  },
-  {
-    "from": "ahooks",
-    "name": "useInterval",
-    "as": "useInterval"
-  },
-  {
-    "from": "ahooks",
-    "name": "useIsomorphicLayoutEffect",
-    "as": "useIsomorphicLayoutEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useKeyPress",
-    "as": "useKeyPress"
-  },
-  {
-    "from": "ahooks",
-    "name": "useLatest",
-    "as": "useLatest"
-  },
-  {
-    "from": "ahooks",
-    "name": "useLocalStorageState",
-    "as": "useLocalStorageState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useLockFn",
-    "as": "useLockFn"
-  },
-  {
-    "from": "ahooks",
-    "name": "useLongPress",
-    "as": "useLongPress"
-  },
-  {
-    "from": "ahooks",
-    "name": "useMap",
-    "as": "useMap"
-  },
-  {
-    "from": "ahooks",
-    "name": "useMemoizedFn",
-    "as": "useMemoizedFn"
-  },
-  {
-    "from": "ahooks",
-    "name": "useMount",
-    "as": "useMount"
-  },
-  {
-    "from": "ahooks",
-    "name": "useMouse",
-    "as": "useMouse"
-  },
-  {
-    "from": "ahooks",
-    "name": "useMutationObserver",
-    "as": "useMutationObserver"
-  },
-  {
-    "from": "ahooks",
-    "name": "useNetwork",
-    "as": "useNetwork"
-  },
-  {
-    "from": "ahooks",
-    "name": "usePagination",
-    "as": "usePagination"
-  },
-  {
-    "from": "ahooks",
-    "name": "usePrevious",
-    "as": "usePrevious"
-  },
-  {
-    "from": "ahooks",
-    "name": "useRafInterval",
-    "as": "useRafInterval"
-  },
-  {
-    "from": "ahooks",
-    "name": "useRafState",
-    "as": "useRafState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useRafTimeout",
-    "as": "useRafTimeout"
-  },
-  {
-    "from": "ahooks",
-    "name": "useReactive",
-    "as": "useReactive"
-  },
-  {
-    "from": "ahooks",
-    "name": "useRequest",
-    "as": "useRequest"
-  },
-  {
-    "from": "ahooks",
-    "name": "useResetState",
-    "as": "useResetState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useResponsive",
-    "as": "useResponsive"
-  },
-  {
-    "from": "ahooks",
-    "name": "useSafeState",
-    "as": "useSafeState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useScroll",
-    "as": "useScroll"
-  },
-  {
-    "from": "ahooks",
-    "name": "useSelections",
-    "as": "useSelections"
-  },
-  {
-    "from": "ahooks",
-    "name": "useSessionStorageState",
-    "as": "useSessionStorageState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useSet",
-    "as": "useSet"
-  },
-  {
-    "from": "ahooks",
-    "name": "useSetState",
-    "as": "useSetState"
-  },
-  {
-    "from": "ahooks",
-    "name": "useSize",
-    "as": "useSize"
-  },
-  {
-    "from": "ahooks",
-    "name": "useTextSelection",
-    "as": "useTextSelection"
-  },
-  {
-    "from": "ahooks",
-    "name": "useTheme",
-    "as": "useTheme"
-  },
-  {
-    "from": "ahooks",
-    "name": "useThrottle",
-    "as": "useThrottle"
-  },
-  {
-    "from": "ahooks",
-    "name": "useThrottleEffect",
-    "as": "useThrottleEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useThrottleFn",
-    "as": "useThrottleFn"
-  },
-  {
-    "from": "ahooks",
-    "name": "useTimeout",
-    "as": "useTimeout"
-  },
-  {
-    "from": "ahooks",
-    "name": "useTitle",
-    "as": "useTitle"
-  },
-  {
-    "from": "ahooks",
-    "name": "useToggle",
-    "as": "useToggle"
-  },
-  {
-    "from": "ahooks",
-    "name": "useTrackedEffect",
-    "as": "useTrackedEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useUnmount",
-    "as": "useUnmount"
-  },
-  {
-    "from": "ahooks",
-    "name": "useUnmountedRef",
-    "as": "useUnmountedRef"
-  },
-  {
-    "from": "ahooks",
-    "name": "useUpdate",
-    "as": "useUpdate"
-  },
-  {
-    "from": "ahooks",
-    "name": "useUpdateEffect",
-    "as": "useUpdateEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useUpdateLayoutEffect",
-    "as": "useUpdateLayoutEffect"
-  },
-  {
-    "from": "ahooks",
-    "name": "useVirtualList",
-    "as": "useVirtualList"
-  },
-  {
-    "from": "ahooks",
-    "name": "useWebSocket",
-    "as": "useWebSocket"
-  },
-  {
-    "from": "ahooks",
-    "name": "useWhyDidYouUpdate",
-    "as": "useWhyDidYouUpdate"
-  },
-  {
-    "name": "TOGGLE_FAV",
-    "as": "TOGGLE_FAV",
-    "from": "C:/Users/kathik/Kathir/Practice/React/react-complete-guide/src/store/actions/products.ts",
+    "name": "useDark",
+    "as": "useDark",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/hooks/useDark.ts",
     "__source": "dir"
   },
   {
-    "name": "toggleFav",
-    "as": "toggleFav",
-    "from": "C:/Users/kathik/Kathir/Practice/React/react-complete-guide/src/store/actions/products.ts",
+    "name": "useNProgress",
+    "as": "useNProgress",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/hooks/useNprogress.ts",
     "__source": "dir"
   },
   {
-    "name": "default",
-    "as": "products",
-    "from": "C:/Users/kathik/Kathir/Practice/React/react-complete-guide/src/store/reducers/products.ts",
+    "name": "counterActions",
+    "as": "counterActions",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/counter.ts",
     "__source": "dir"
   },
   {
-    "name": "Product",
-    "as": "Product",
-    "from": "C:/Users/kathik/Kathir/Practice/React/react-complete-guide/src/store/reducers/products.ts",
+    "name": "counterReducers",
+    "as": "counterReducers",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/counter.ts",
+    "__source": "dir"
+  },
+  {
+    "name": "store",
+    "as": "store",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/index.ts",
+    "__source": "dir"
+  },
+  {
+    "name": "storePersistor",
+    "as": "storePersistor",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/index.ts",
+    "__source": "dir"
+  },
+  {
+    "name": "RootState",
+    "as": "RootState",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/index.ts",
     "type": true,
+    "__source": "dir"
+  },
+  {
+    "name": "uiActions",
+    "as": "uiActions",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/ui.ts",
+    "__source": "dir"
+  },
+  {
+    "name": "uiReducers",
+    "as": "uiReducers",
+    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/ui.ts",
     "__source": "dir"
   }
 ]

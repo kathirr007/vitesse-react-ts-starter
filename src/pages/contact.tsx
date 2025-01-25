@@ -1,5 +1,3 @@
-import HomeLayout from '@/layouts/HomeLayout';
-
 function ContactContent() {
   return (
     <div className="text-center">
