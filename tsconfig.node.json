@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "vite.config.*",
+    "./auto-import-utils.ts",
+    "./.unimport-items.json",
+    ".eslintrc-auto-import.json",
+    "./global.d.ts"
+  ]
+}
