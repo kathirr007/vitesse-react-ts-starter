@@ -8,7 +8,9 @@ const HomeLayout = memo(({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <>
       <Header />
-      {children}
+      <main className="w-full">
+        {children}
+      </main>
       <Footer />
     </>
   );

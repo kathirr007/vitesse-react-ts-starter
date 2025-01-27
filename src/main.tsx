@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router';
 import { PersistGate } from 'redux-persist/integration/react';
 import routes from '~react-pages';
 import 'nprogress/nprogress.css';
+import '@/tailwind.css';
 import '@/index.css';
 
 const router = createBrowserRouter(routes);

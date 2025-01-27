@@ -32,11 +32,12 @@ export default defineConfig({
       eslintrc: {
         enabled: true
       },
+      packagePresets: ['react-use'/* other local package names */],
       imports: [
         ...getComponentImports(),
         'react',
-        'react-router',
-        { 'usehooks-ts': ['useCounter', 'useDarkMode'] }
+        'react-router'
+        // { 'usehooks-ts': ['useCounter', 'useDarkMode'] }
       ],
       dumpUnimportItems: true
     }),

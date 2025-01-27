@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 export function Footer() {
-  // const { isDark, toggleDark } = useDark();
   const dispatch = useDispatch();
 
   const isDark = useSelector((state: RootState) => state.uiStore.isDarkMode);
@@ -26,15 +25,13 @@ export function Footer() {
 
   return (
     <nav className="text-xl mt-6 inline-flex gap-2">
-      <button aria-label="toggle-dark-mode" type="button" className="icon-btn !outline-none" onClick={handleToggleTheme}>
+      <button aria-label="toggle-dark-mode" type="button" className="rounded-md bg-white py-4 px-6 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 cursor-pointer" onClick={handleToggleTheme}>
         {isDark ? <Icon icon="carbon:moon" /> : <Icon icon="carbon:sun" />}
       </button>
 
-      <button aria-label="Github" type="button" onClick={openGithub} className="icon-btn !outline-none border-gray-600">
+      <button aria-label="Github" type="button" onClick={openGithub} className="rounded-md bg-white py-4 px-6 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 cursor-pointer">
         <Icon icon="carbon:logo-github" />
       </button>
-
     </nav>
-
   );
 }

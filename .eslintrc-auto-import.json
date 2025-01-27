@@ -196,6 +196,7 @@
     "useDarkMode": true,
     "RootStateType": true,
     "ErrorLayout": true,
-    "HomeLayout": true
+    "HomeLayout": true,
+    "getSystemDefaultMode": true
   }
 }

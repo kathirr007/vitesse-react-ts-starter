@@ -1,10 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: rgb(255 255 255 / 87%);
-  color-scheme: light dark;
-  background-color: #242424;
+  color: #213547;
+  background-color: #fff;
   font-synthesis: none;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,97 +19,4 @@
 :root.dark {
   color: #f9f9f9;
   background-color: #121212;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
-}
-
-a.active,
-a[aria-current='page'] {
-  color: #050505;
-}
-
-:root.dark a.active {
-  color: #f9f9f9;
-}
-
-body {
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  margin: 0;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  padding: 0.6em 1.2em;
-  font-family: inherit;
-  font-size: 1em;
-  font-weight: 500;
-  cursor: pointer;
-  background-color: #1a1a1a;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  transition: border-color 0.25s;
-}
-
-button:hover {
-  border-color: #646cff;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-.inline-flex {
-  display: inline-flex;
-  gap: 0.5em;
-}
-
-.gap-2 {
-  gap: 0.5em;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #fff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
 }

@@ -170,68 +170,64 @@
     "as": "useRoutes"
   },
   {
-    "from": "usehooks-ts",
-    "name": "useCounter",
-    "as": "useCounter"
+    "name": "getSystemDefaultMode",
+    "as": "getSystemDefaultMode",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/hooks/useDark.ts",
+    "__source": "dir"
   },
   {
-    "from": "usehooks-ts",
     "name": "useDarkMode",
-    "as": "useDarkMode"
-  },
-  {
-    "name": "useDark",
-    "as": "useDark",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/hooks/useDark.ts",
+    "as": "useDarkMode",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/hooks/useDark.ts",
     "__source": "dir"
   },
   {
     "name": "useNProgress",
     "as": "useNProgress",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/hooks/useNprogress.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/hooks/useNprogress.ts",
     "__source": "dir"
   },
   {
     "name": "counterActions",
     "as": "counterActions",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/counter.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/store/counter.ts",
     "__source": "dir"
   },
   {
     "name": "counterReducers",
     "as": "counterReducers",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/counter.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/store/counter.ts",
     "__source": "dir"
   },
   {
     "name": "store",
     "as": "store",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/index.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/store/index.ts",
     "__source": "dir"
   },
   {
     "name": "storePersistor",
     "as": "storePersistor",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/index.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/store/index.ts",
     "__source": "dir"
   },
   {
     "name": "RootState",
     "as": "RootState",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/index.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/store/index.ts",
     "type": true,
     "__source": "dir"
   },
   {
     "name": "uiActions",
     "as": "uiActions",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/ui.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/store/ui.ts",
     "__source": "dir"
   },
   {
     "name": "uiReducers",
     "as": "uiReducers",
-    "from": "D:/Webprojects/Practices/React/vitesse-react-ts-starter/src/store/ui.ts",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vitesse-react-ts-starter/src/store/ui.ts",
     "__source": "dir"
   }
 ]

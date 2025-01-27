@@ -17,8 +17,12 @@
 - ⚡️ [Vite 6](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing](./src/pages)
-
-- 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- 🏪 [State Management via React Redux](https://react-redux.js.org/) ✅
+- 🧱 [Layout system](./src/layouts) ✅
+- [Tailwind CSS](https://tailwindcss.com/) ✅
+- 😃 Use icons from any icon sets in [Iconify Icons](https://icon-sets.iconify.design/)
+- 🦾 TypeScript, of course ✅
+- Eslint, Prettier, Husky, Lint-staged ✅
 
 <br>
 
@@ -27,7 +31,6 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 ## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
 
 - ~~i18n~~
-- ~~Layouts~~
 - ~~SSG~~
 - ~~PWA~~
 - ~~Markdown~~
@@ -49,7 +52,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-lite/generate).
+[Create a repo from this template on GitHub](https://github.com/kathirr007/vitesse-react-ts-starter/generate).
 
 ### Clone to local
 

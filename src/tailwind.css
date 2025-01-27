@@ -1,1 +1,3 @@
 @import 'tailwindcss';
+/* stylelint-disable-next-line scss/operator-no-unspaced */
+@custom-variant dark (&:where(.dark, .dark *));

@@ -3,7 +3,7 @@ import reactLogo from '@/assets/react.svg';
 
 import { counterActions } from '@/store/counter';
 import { useDispatch, useSelector } from 'react-redux';
-import '@/App.css';
+import './indexPage.css';
 import viteLogo from '/vite.svg';
 
 function IndexContent() {
@@ -13,18 +13,18 @@ function IndexContent() {
     dispatch(counterActions.increment());
   }
   return (
-    <>
-      <div>
+    <div className="home-page text-center">
+      <div className="flex gap-4 justify-center">
         <a rel="noreferrer noopener" href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo p-6  h-[144px]" alt="Vite logo" />
         </a>
         <a rel="noreferrer noopener" href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={reactLogo} className="react logo p-6 h-[144px] duration-300" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1 className="text-4xl font-medium">Vite + React</h1>
       <div className="card">
-        <button type="button" onClick={handleIncrement}>
+        <button type="button" className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 cursor-pointer mb-4" onClick={handleIncrement}>
           count is
           {' '}
           {count}
@@ -32,7 +32,7 @@ function IndexContent() {
         <p>
           Edit
           {' '}
-          <code>src/pages/index.jsx</code>
+          <code>src/pages/index.tsx</code>
           {' '}
           and save to test HMR
         </p>
@@ -40,7 +40,7 @@ function IndexContent() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
+    </div>
   );
 }
 
