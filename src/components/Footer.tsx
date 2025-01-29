@@ -13,7 +13,7 @@ export function Footer() {
   }
 
   function openGithub() {
-    window.open('https://github.com/crcravi66/vite-react-starter', '_blank');
+    window.open('https://github.com/kathirr007/vitesse-react-ts-starter', '_blank');
   }
 
   useEffect(() => {
