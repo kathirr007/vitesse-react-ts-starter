@@ -23,6 +23,12 @@ export function Header() {
         >
           Contact
         </NavLink>
+        <NavLink
+          to="/test"
+          className={({ isActive }) => isActive ? 'text-gray-900 dark:text-gray-200' : 'text-blue-400 hover:text-gray-900 dark:hover:text-gray-200'}
+        >
+          Test
+        </NavLink>
         <a className="text-blue-400 hover:text-gray-900 dark:hover:text-gray-200" href="https://github.com/crcravi66/vite-react-starter">Github</a>
 
       </nav>
