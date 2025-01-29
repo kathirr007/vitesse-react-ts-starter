@@ -14,14 +14,22 @@
 
 ## Features
 
-- ⚡️ [Vite 6](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- ⚡️ [Vite 6](https://github.com/vitejs/vite), [React 19](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing](./src/pages)
-- 🏪 [State Management via React Redux](https://react-redux.js.org/) ✅
+
+- 📦 [Components auto importing](./src/components)
+
+- 🏪 [State Management via Redux Toolkit](https://react-redux.js.org/) ✅
+
 - 🧱 [Layout system](./src/layouts) ✅
-- [Tailwind CSS](https://tailwindcss.com/) ✅
+
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) + [Iconify](https://iconify.design/docs/icon-components/react/) ✅
+
 - 😃 Use icons from any icon sets in [Iconify Icons](https://icon-sets.iconify.design/)
+
 - 🦾 TypeScript, of course ✅
+
 - Eslint, Prettier, Husky, Lint-staged ✅
 
 <br>
